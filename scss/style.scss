@@ -1,0 +1,260 @@
+
+@font-face {
+	font-family: 'Sunflower';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Sunflower'), url(../fonts/Sunflower.otf) format('opentype');
+}
+/*tipografias
+  font-family: 'Sunflower', sans-serif; principal
+font-family: 'Lato', sans-serif;
+  */
+/* Paleta de colores
+#C2CADC azul
+#E0CED9 morado
+#F7BDB9 rosa 
+#EFD9AB ocre  
+*/
+/* reset por default */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	@media (max-width: 576px){
+		font-size: 12px;
+		
+	}
+}
+header {
+	background-color: #E0CED9;
+}
+main {
+	background-color: #ecf3f4;
+}
+.navBar {
+	font-family: 'Lato', sans-serif;
+}
+ 
+.navHead{
+	background-color:  #F7BDB9 !important;
+}
+.bg-splash {
+	background-image: url(../imagenesIG/bg_intro_opacity.png);
+	object-fit: cover;
+	padding: 4rem 2rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.tituloP {
+	text-align: center;
+	padding: 2rem 0;
+}
+.subtitulo {
+	text-align: center;
+}
+footer {
+	background-color: #C2CADC;
+}
+
+
+
+
+//-------------------NavBAr-------------------//@
+.navItems{
+	a{
+
+	font-weight: bold !important;
+	//color: #506072;//
+	font-family: 'Lato', sans-serif !important;
+	color: #34404d !important ;
+}
+}
+
+// .navAround{
+	
+	
+// 	display: flex;
+// 	flex-direction: row;
+// 	flex-wrap: nowrap;
+// 	justify-content: space-around;
+
+
+
+// }
+.menuBar{
+	padding: 0 5rem !important;
+	font-family: 'Lato', sans-serif !important;
+	&:hover{
+		font-weight: bold;
+		
+	}
+	
+
+}
+.menuBarFooter
+{
+	a{
+		color: #34404d !important;
+	font-family: 'Lato', sans-serif !important;
+	&:hover{
+		font-weight: bold;
+		
+
+	}
+	
+	}
+
+}
+
+.aBlock{
+	a{
+		display: block;
+	}
+}
+
+
+//----------------------------index----------//
+
+.imagenSecciones{
+	height: 300px;
+}
+.tituloP{
+	font-family: 'Sunflower', sans-serif; //principal
+}
+.textoIndex{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-bottom: 2rem;
+	
+	
+}
+.nosotrastext{
+	text-align: center;
+	padding:4rem;}
+
+.tituloCard{
+	font-family: 'Sunflower', sans-serif; //principal
+	text-align: center;
+	padding-top: 1rem;
+
+}
+
+.socialIco{
+	width: 70%;
+}
+
+//-----------------portfolio-----------//
+
+.carousel, .carousel-inner > .item > img {
+	width: 50%;
+	height: 90%;
+  }
+
+//------------contacto-------------//
+.btn-padd{
+	text-align: center;
+	margin: 1rem auto;
+	
+}
+
+
+//--------------slide de fotos----//
+
+.imgSlide{
+	object-fit: cover;
+}
+
+//-------Formulario-------//
+#formulario{
+	background-image: url(../imagenesIG/marketing-strategy-opacity.png)
+	
+}
+
+//-----------Servicios-----------/
+.tittleService{
+	font-family: 'Sunflower', sans-serif;
+}
+
+.tarjetaServicios{
+	text-align: center;
+	height: 60vh !important	;
+	@media (max-width:576px) {
+	
+		height: 90vh;
+		
+	}
+}
+.servicios1{
+
+display: flex;
+justify-content: center;
+	
+}
+.servicios2{
+	 display: flex;
+	 justify-content: space-between !important;
+	 margin-top: 4rem;
+	 		
+}
+.spaceCol{
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.mainService{
+	padding-top:2rem;
+
+h2, p{
+text-align: center;
+margin: 0 4rem 2rem 4rem;
+
+}
+
+	
+}
+
+.myEspacio{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.condicionesPlan{
+	text-align: center;
+	
+}
+
+
+//-----------Fotografia--------//
+
+.mainPhoto{
+	padding: 5rem ;
+}
+.tittlePhoto{
+	font-family: 'Sunflower', sans-serif;
+	text-align: center;
+
+}
+  //Subpaginas de fotografia//
+
+.fotoZone{
+	padding: 5rem 0;
+}
+//------------Footer-------------//
+.logoFooter{
+	img{
+		width: 10rem;
+		padding: 2rem 0;
+	}
+	}

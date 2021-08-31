@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "Sunflower";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sunflower"), url(../fonts/Sunflower.otf) format("opentype");
+}
+/*tipografias
+  font-family: 'Sunflower', sans-serif; principal
+font-family: 'Lato', sans-serif;
+  */
+/* Paleta de colores
+#C2CADC azul
+#E0CED9 morado
+#F7BDB9 rosa 
+#EFD9AB ocre  
+*/
+/* reset por default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+header {
+  background-color: #E0CED9;
+}
+
+main {
+  background-color: #ecf3f4;
+}
+
+.navBar {
+  font-family: "Lato", sans-serif;
+}
+
+.navHead {
+  background-color: black !important;
+}
+
+.bg-splash {
+  background-image: url(../imagenesIG/bg_intro_opacity.png);
+  object-fit: cover;
+  padding: 4rem 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+}
+@media (max-width: 768px) {
+  .bg-splash {
+    background-image: url(../imagenesIG/fotos/6.png);
+    
+  }
+}
+
+.tituloP {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+footer {
+  background-color: #E0CED9;
+}
+
+.navItems a {
+  font-weight: bold !important;
+  font-family: "Lato", sans-serif !important;
+  color: #34404d !important;
+}
+.navItems a:hover {
+  color: #756237 !important;
+}
+
+.menuBar {
+  padding: 0 5rem !important;
+  font-family: "Lato", sans-serif !important;
+}
+.menuBar:hover {
+  font-weight: bold;
+  color: #859fdd !important;
+}
+
+.menuBarFooter a {
+  color: #34404d !important;
+  font-family: "Lato", sans-serif !important;
+  text-align: center;
+}
+.menuBarFooter a:hover {
+  font-weight: bold;
+  color: #859fdd !important;
+}
+
+.aBlock a {
+  display: block;
+}
+
+.imagenSecciones {
+  height: 300px;
+}
+
+.tituloP {
+  font-family: "Sunflower", sans-serif;
+}
+
+.textoIndex {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.nosotrastext {
+  text-align: center;
+  padding: 4rem;
+}
+
+.tituloCard {
+  font-family: "Sunflower", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: large;
+}
+
+.socialIco {
+  width: 100%;
+}
+
+.carousel, .carousel-inner > .item > img {
+  width: 50%;
+  height: 90%;
+}
+
+.btn-padd {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.transparentForm {
+  background-color: rgba(236, 243, 244, 0.5) !important;
+}
+
+.imgSlide {
+  object-fit: cover;
+}
+
+#formulario {
+  background-image: url(../imagen/CONTACTO.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.tittleService {
+  font-family: "Sunflower", sans-serif;
+}
+
+.tarjetaServicios {
+  text-align: center;
+  height: 60vh !important;
+  background-color: #C2CADC !important;
+}
+@media (max-width: 576px) {
+  .tarjetaServicios {
+    height: 90vh;
+  }
+}
+
+.servicios1 {
+  display: flex;
+  justify-content: center;
+}
+
+.servicios2 {
+  display: flex;
+  justify-content: space-between !important;
+  margin-top: 4rem;
+}
+
+.spaceCol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.mainService {
+  padding-top: 2rem;
+}
+.mainService h2, .mainService p {
+  text-align: center;
+  margin: 0 4rem 2rem 4rem;
+}
+
+.myEspacio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.condicionesPlan {
+  text-align: center;
+}
+
+.tarjetaServicios2 {
+  background-color: #F7BDB9 !important;
+}
+
+.tarjetaServicios3 {
+  background-color: #EFD9AB !important;
+}
+
+.mainPhoto {
+  padding: 5rem;
+}
+
+.tittlePhoto {
+  font-family: "Sunflower", sans-serif;
+  text-align: center;
+}
+
+.fotoZone {
+  padding: 5rem 0;
+}
+
+.logoFooter img {
+  width: 10rem;
+  padding: 2rem 0;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

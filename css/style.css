@@ -1,0 +1,380 @@
+@font-face {
+  font-family: "Sunflower";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sunflower"), url(../fonts/Sunflower.otf) format("opentype");
+}
+/*tipografias
+  font-family: 'Sunflower', sans-serif; principal
+font-family: 'Lato', sans-serif;
+  */
+/* Paleta de colores
+#C2CADC gba(194,202,220,0.3)azul
+#E0CED9 (224,206,217,0.3) morado
+#F7BDB9 rgba(247,189,185,0.3) rosa 
+#EFD9AB rgba(239,217,171,0.3)ocre  
+*/
+/* reset por default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+header {
+  background-color: #E0CED9;
+}
+
+main {
+  background-color: #ecf3f4;
+}
+
+.navBar {
+  font-family: "Lato", sans-serif;
+}
+
+.navHead {
+  background-color: black !important;
+}
+
+.bg-splash {
+  background-image: url(../imagenesIG/bg_intro_opacity2.png);
+  object-fit: cover;
+  padding: 4rem 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+}
+ @media (max-width: 768px) {
+  .bg-splash {
+    background-image: url(../imagenesIG/working1.png);
+background-size: cover;
+  }
+  
+} 
+
+.tituloP {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+footer {
+  background-color: #E0CED9;
+}
+
+.navItems a {
+  font-weight: bold !important;
+  font-family: "Lato", sans-serif !important;
+  color: #34404d !important;
+}
+.navItems a:hover {
+  color: #756237 !important;
+}
+
+.menuBar {
+  padding: 0 5rem !important;
+  font-family: "Lato", sans-serif !important;
+}
+.menuBar:hover {
+  font-weight: bold;
+  color: #859fdd !important;
+}
+
+.menuBarFooter a {
+  color: #34404d !important;
+  font-family: "Lato", sans-serif !important;
+  text-align: center;
+}
+.menuBarFooter a:hover {
+  font-weight: bold;
+  color: #859fdd !important;
+}
+
+.aBlock a {
+  display: block;
+}
+
+.imagenSecciones {
+  height: 300px;
+  }
+  .imagenSecciones:hover {
+    filter: opacity(.5);
+    }
+    
+
+.tituloP {
+  font-family: "Sunflower", sans-serif;
+}
+
+.aboutUs{
+  padding-top: 5rem;
+  background-color: #efece7 ;
+ 
+}
+.aboutUs p{
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  
+}
+.textoIndex {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+
+}
+.fotoCG img{
+  width: 100%;
+  
+}
+.textAbout{
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+
+
+.nosotrastext {
+  text-align: center;
+  padding: 4rem;
+}
+
+.expertas{
+  text-align: center;
+  padding: 5rem 0 0 0 ;
+}
+.expertas p{
+  padding-bottom: 2rem;
+}
+
+.tituloCard {
+  font-family: "Sunflower", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: large;
+}
+
+.socialIco {
+  width: 80%;
+ }
+ 
+
+.carousel, .carousel-inner > .item > img {
+  width: 50%;
+  height: 90%;
+}
+
+.btn-padd {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.transparentForm {
+  background-color: rgba(236, 243, 244, 0.5) !important;
+}
+.enviarForm{
+  background-color:#E0CED9 !important; 
+ 
+}
+
+
+.imgSlide {
+  object-fit: cover;
+}
+
+#formulario {
+  background-image: url(../imagen/CONTACTO2.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+   
+}
+@media (max-width:768px){
+ #formulario{
+  background-image: url(../imagen/form-mini.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+  }
+
+.imgPhoto:hover{
+  filter: opacity(.7);
+}
+
+.fotoZone2{
+  padding: 5rem 0;
+
+}
+.fotoZone{
+  padding: 3rem 0;
+  background-color:  rgba(224,206,217,0.3);
+  
+}
+.fotoProd{
+background-color: #ecf3f4;
+padding: 3rem 0;
+}
+.fotoModa{
+  padding: 3rem 0;
+  background-color: rgba(247,189,185,0.3);
+}
+textarea {
+  resize: none;
+}
+
+.tittleService {
+  font-family: "Sunflower", sans-serif;
+  text-align: center;
+}
+
+.tarjetaServicios {
+  text-align: center;
+  /* height: 55vh !important; */
+  background-color: #C2CADC !important;
+}
+
+@media (min-width:992px){
+  .tarjetaServicios, .tarjetaServicios2, .tarjetaServicios3 {
+    min-height: 55vh;
+  }
+}
+
+@media (max-width:992px){
+  .tarjetaServicios,  .tarjetaServicios2, .tarjetaServicios3{
+    min-height: 55vh;
+  }
+  
+  }
+
+@media (max-width:768px){
+  .tarjetaServicios,  .tarjetaServicios2, .tarjetaServicios3 {
+    min-height: 50vh;
+  }
+}
+@media (max-width: 576px) {
+  .tarjetaServicios,  .tarjetaServicios2, .tarjetaServicios3 {
+    min-height: 55vh;
+  }
+}
+
+.servicios1 {
+  display: flex;
+  justify-content: center;
+}
+
+.servicios2 {
+  display: flex;
+  justify-content: space-between !important;
+  margin-top: 4rem;
+}
+
+.spaceCol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+
+
+.borraHover{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  text-align: center;
+}
+
+.borraHover a:hover{
+text-decoration: none;
+}
+
+.btnServices :hover{ 
+  text-decoration: none !important;
+
+}
+.mainService {
+  padding-top: 2rem;
+}
+.mainService h2, .mainService p {
+  text-align: center;
+  margin: 0 4rem 2rem 4rem;
+}
+
+.myEspacio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.condicionesPlan {
+  text-align: center;
+  font-style: italic;
+}
+
+.tarjetaServicios2 {
+  background-color: #F7BDB9 !important;
+  text-align: center;
+}
+
+
+.tarjetaServicios3 {
+  background-color: #EFD9AB !important;
+  text-align: center;
+}
+
+.mainPhoto {
+  padding: 5rem;
+}
+
+.tittlePhoto {
+  font-family: "Sunflower", sans-serif;
+  text-align: center;
+}
+
+.fotoGastro {
+  padding: 3rem 0;
+  background-color: #EFD9AB;
+}
+
+.logoFooter img {
+  width: 8rem;
+  padding: 2rem 0;
+}
+
+.copyright {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .portfolioSlide {
+   
+   width: 95% !important;
+   margin: 0 auto;
+    
+  }
+  .logoFooter img{ 
+    width: 5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
